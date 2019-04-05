@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.typekit.net/pqy5rcu.css">
+    <link rel="stylesheet" type="text/css" href="../assets/CSS/recipesearchstyle.css">
+    <link rel="icon" href="../assets/Images/favicon.png">
+
+    <title>sousChef-RecipeSearch</title>
+</head>
+
+<body>
+
+    <nav id="maincolor" class="navbar maincolor">
+        <a class="navbar-brand" href="../index.html">
+            <img class="logoimage" src=../assets/Images/sousChef.png alt="logo">
+        </a>
+    </nav>
+
+    <img class="cookingimg" src="../assets/Images/cookingimage.jpg" alt="Image">
+    <div class="bar maincolor"> </div>
+    <div class="container mb-2 mt-4">
+        <div class="row">
+
+            <div class="col-12 secondarycolor titlefont muli">
+                HELP US FIND WHAT YOU ARE LOOKING FOR 
+            </div>
+        </div>
+    </div>
+    <div class="container bg-light rounded  p-4">
+
+        <div class="row secondarycolor titlefont muli">
+            <div class="col-12">Main Ingredient</div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input id="userInput" class="w-100 secondarycolor buttoncolor border-0 pl-2 roundedcorners buttonfont">
+            </div>
+        </div>
+        <div class="row secondarycolor titlefont mt-3 muli">
+            <div class="col-12">Country</div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="American">American</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="British">British</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Canadian">Canadian</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Chinese">Chinese</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Dutch">Dutch</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Egyptian">Egyptian</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="French">French</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Greek">Greek</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Indian">Indian</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Irish">Irish</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Italian">Italian</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Jamaican">Jamaican</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Japanese">Japanese</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Malaysian">Malaysian</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Mexican">Mexican</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Morrocan">Morrocan</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Russian">Russian</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Spanish">Spanish</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Thai">Thai</button>
+                <button
+                    class="arrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Vietnamese">Vietnamese</button>
+            </div>
+        </div>
+        <div class="row secondarycolor titlefont mt-3 muli">
+            <div class="col-12">What are you into the mood for?</div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button
+                    class="ctrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Beef">Beef</button>
+                <button
+                    class="ctrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Breakfast">Breakfast</button>
+                <button
+                    class="ctrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Chicken">Chicken</button>
+                <button
+                    class="ctrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Desert">Dessert</button>
+                <button
+                    class="ctrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Beef">Beef</button>
+                <button
+                    class="ctrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Lamb">Lamb</button>
+                <button
+                    class="ctrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Miscellanous">Miscellanous</button>
+                <button
+                    class="ctrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Pasta">Pasta</button>
+                <button
+                    class="ctrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Pork">Pork</button>
+                <button
+                    class="ctrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Seafood">Seafood</button>
+                <button
+                    class="ctrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Side">Side</button>
+                <button
+                    class="ctrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Starter">Starter</button>
+                <button
+                    class="ctrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Vegan">Vegan</button>
+                <button
+                    class="ctrecipebttn secondarycolor roundedcorners border-0 pointercursor buttoncolor pl-3 pr-3 mx-1 pb-1 buttonfont my-1"
+                    clicked="off" value="Vegetarian">Vegetarian</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+
+                <a id="submitURL" href="SearchResult.html">
+                    <div id="submitbttn" class="secondarycolor roundedcorners text-center mt-5 titlefont buttoncolor muli">SUBMIT</div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/javascript/recipeSearch.js"></script>
+
+ 
+</body>
+
+</html>

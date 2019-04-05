@@ -1,0 +1,196 @@
+.maincolor{
+    background-color: #ffc866;
+}
+
+.logoimage{
+    height: 30px;
+}
+
+.cookingimg{
+    max-height:300px;
+    /* background-image: url(../Images/cookingimage.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100vw;
+}
+
+.bar{
+    height: 10px;
+    width: 100vw;
+}
+
+.secondarycolor{
+    color: #f9b443;
+}
+
+.titlefont{
+    font-size: 22px
+}
+
+.muli{
+    font-family: muli, sans-serif;
+}
+
+.listbuttons{
+    float:left;
+}
+
+.buttoncolor{
+    background-color: #e8e8e8;
+}
+
+.roundedcorners{
+    border-radius: 25px;
+}
+
+.buttonfont{
+    font-size: 18px;
+}
+
+#loadmorebttn{
+    width:120px;
+    margin: auto;
+}
+
+.clickedcolors{
+    background-color: #ffc866;
+    color:#e8e8e8;
+}
+
+.submit {
+    text-decoration: inherit;
+}
+
+button:focus {
+    outline:0;}
+
+.resultimg{
+    width:100%;
+    max-height: 125px;
+    object-fit:none;
+}
+
+.recipedescription{
+    font: 14px;
+    max-height:70px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.box{
+    height: 250px;
+    width: 250px;
+}
+
+.mwidth{
+    max-width: 999px;
+}
+
+.recipeimg.resize{
+    width: 1000px;
+    height:1000px;
+}
+
+.recipeimg{
+    max-height: 250px;
+    /* background-image: url(../Images/cookingimage.jpg); */
+    background-repeat: no-repeat;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.image { 
+    position: relative; 
+    width: 100%; 
+ }
+ 
+.recipeName { 
+    position: absolute; 
+    left: 20px; 
+    bottom: 20px;
+    max-width: 75%; 
+ }
+
+.rightfloat {
+    float:right;     
+ }
+
+.leftfloat{
+    float:left
+}
+
+.subtitlefont{
+    font-size: 18px;
+}
+
+.lineheight{
+    line-height: 22px;
+}
+
+.fadedcolor{
+    color: #e8e8e8; 
+}
+
+.firstImg {
+    max-height:450px;
+    /* background-image: url(../Images/cookingimage.jpg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100vw;
+    border-bottom: 10px solid #ffc866;
+}
+
+   h5 {
+       color:#ffc866;
+   }
+
+   #maincolor {
+    background-color: #ffc866;
+    height: 90px;
+}
+
+.logoimage {
+    height: 30px;
+}
+
+#startCookingBtn, #findRecipeBtn {
+    border-radius: 35px;
+    width: 190px;
+    height: 50px; 
+    padding-top:8px;
+    font-size:23px;
+    color: #f9b443;
+    font-weight: 400;
+    }
+
+#btnDiv1, #btnDiv2 {
+   
+    margin-top: -150px;
+}
+
+#secondC {
+    
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.img {
+    margin: 10px;
+}
+
+@media screen and (max-width: 575px) {
+    #btnDiv1 {
+        margin-top: -80px;
+    }
+}
+
+#footerHome {
+    height: 100px;
+}
+
+.modal {
+    align-content: center;
+    align-self: center;
+
+}
