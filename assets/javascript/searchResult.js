@@ -118,13 +118,29 @@ function getDetails(id_url){
 
 
 }
-
-$( document ).ajaxComplete(function() {
-    if (notempty === false) {
-        $("#searchresults").append($("<div class='roundedcorners box m-3 p-2 bg-light text-center mx-auto secondarycolor'>"))
-        $(".box").text('Sorry, we did not find anything for that search request. Please try a different ingredient.')
-        $(".box").append('<a href="../html/recipesearch.html"><button class="goBack secondarycolor roundedcorners  p-2 btn btn-lg text-center mt-2 p-1 mx-auto titlefont bg-light">Go back</button>')
+ //FUNCTION FOR TIMER
+    // Variables for timer
+    var time = 10
+    var interval;
+    // Function to start timer
+    function timer() {
+            clearInterval(interval);
+            interval = setInterval(decrement, 1000);
+        }
+        //  The lessen Function
+    function decrement() {
+        //Decrease time by one
+        time--;
+        //  When you time = 0
+        if (time === 0) {
+            console.log ("yay")
+            if (notempty === false) {
+                $("#searchresults").append($("<div class='roundedcorners box m-3 p-2 bg-light text-center mx-auto secondarycolor'>"))
+                $(".box").text('Sorry, we did not find anything for that search request. Please try a different ingredient.')
+                $(".box").append('<a href="../html/recipesearch.html"><button class="goBack secondarycolor roundedcorners  p-2 btn btn-lg text-center mt-2 p-1 mx-auto titlefont bg-light">Go back</button>')
+            }
+        }
     }
-});
 
+timer()
 
