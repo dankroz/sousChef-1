@@ -59,7 +59,7 @@ function getResponse(queryURL){
             // recipebox = add.("<div class='my-4'>")
             var topbox =$("<div>")
             var stepnumber = i+1
-            topbox.append("<div class='step"+stepnumber+" leftfloat secondarycolor subtitlefont'> STEP " + stepnumber +"</div>")
+            topbox.append("<div class='step" + stepnumber + " leftfloat secondarycolor subtitlefont'> STEP " + stepnumber +"</div>")
             topbox.append("<div class='checkbttn' data-value='"+ stepnumber + "'><i class='far rightfloat fa-square secondarycolor'></i></div>")
             recipebox.append(topbox)
             recipebox.append("<br>")

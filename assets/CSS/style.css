@@ -1,7 +1,7 @@
 .firstImg {
-    max-height:450px;
+    max-height: 95vw;
     /* background-image: url(../Images/cookingimage.jpg); */
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-size:cover;
     width: 100vw;
     border-bottom: 10px solid #ffc866;
@@ -87,7 +87,7 @@ height: 90px;
 }
 
 .titlefont{
-    font-size: 22px;
+    font-size: 28px;
 }
 
 .muli{
@@ -104,6 +104,10 @@ height: 90px;
 
 .roundedcorners{
     border-radius: 25px;
+}
+
+.roundedcorners2{
+    border-radius: 16px;
 }
 
 .buttonfont{
@@ -161,4 +165,80 @@ a:hover{
 
 .bttnfont{
     font-size: 28px;
+}
+
+.bttnhover:hover{
+    background-color: #ffc866;
+    color: white
+}
+
+.favorite{
+    max-height: 250px;
+    width: 100%
+}
+
+.favoriteImg{
+    float: left;
+    width: 100%;
+    height: 220px;
+    object-fit:cover;
+}
+
+.instructions{
+    /* text-overflow: ellipsis; */
+    height: 70px;
+    overflow: hidden;
+}
+
+.blueline:hover{
+    background-color: #ffc866;
+    color:white;
+}
+
+.blueline{
+    border-color:#ffc866;
+    border-width:2px;
+    border-style:solid;
+    cursor: pointer
+}
+
+.dropshadow{
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+.w100{
+    width: 100%
+}
+
+.marginfix{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.recipename{
+    max-height: 25px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px){ 
+    .favorite{
+        max-height: 150px;
+        width: 100%
+    }
+
+    .favoriteImg{
+        float: left;
+        width: 100%;
+        height: 115px;
+        object-fit:cover;
+    }
+
+    .instructions{
+        display: none;
+    }
+
+    .recipetitle{
+        display: none;
+    }
 }

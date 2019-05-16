@@ -20,10 +20,9 @@ $(document).ready(function(){
 })
 function getResponse(queryURL){
     $.ajax({
-        url: queryURL
-        ,
+        url: queryURL,
         method: "GET"
-      }).then(function(response) {
+    }).then(function(response) {
         console.log(queryURL)
         firstResponse = response.meals.length
         for (i=0;i<firstResponse;i++){

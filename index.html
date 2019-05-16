@@ -9,7 +9,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.typekit.net/pqy5rcu.css">
     <link href="assets/CSS/style.css" type="text/css" rel="stylesheet">
-    <link rel="icon" href="assets/Images/favicon.png">
+    <link rel="icon" href="assets/Images/faviconv3.png">
     <title>sousChef</title>
 </head>
 
@@ -24,49 +24,37 @@
 
     <img src="assets/Images/Homepgbackgroundimg.jpg" class="firstImg"/>
 
-    <div class="row">
-        <div id="btnDiv1" class="col-12 text-center">
-            <a class="secondarycolor" href="html/recipesearch.html" class="p-0"><button class="roundedcorners secondarycolor border-0 muli bttnfont bttnhover px-3 py-1">FIND RECIPE</button> </a>
+    <div class="container">
+        <div class="row">
+            <div id="btnDiv1" class="col-12 text-center w100 px-0">
+                <a class="secondarycolor" href="html/recipesearch.html" class="p-0"><button class="roundedcorners secondarycolor muli bttnfont dropshadow px-3 py-1 blueline">FIND RECIPE</button> </a>
+            </div>
         </div>
     </div>
 
-    <div class="conatiner m-2 p-4">
-        <div class="row">
-            <div class="container border-0 mt-2">
-                <div class="row">
-                    <div class="border-0 bg-white secondarycolor titlefont col-12 ml-3 mb-3 titlefontmuli">
-                        FAVORITE RECIPES
+    <div class="conatiner-fluid d-flex justify-content-center">
+        <div class="row w100 mx-auto">
+            <div class="col-12 border-0 mt-4">
+                <div class="row w100">
+                    <div class="border-0 bg-white secondarycolor titlefont col-10 ml-3 mb-0 titlefontmuli">
+                        RECENT FAVORITES
                     </div>
                 </div>
-
-                <div id="secondC" class="card border-0 d-inline-block col-12">
-                    <div class="d-inline-block"><img class="yourFavImg" src="assets/Images/homePageImages/dummy1.jpg" alt="picture of a favorite meal" />
-                        <p class="text-center text-warning">Pasta Carbonera</p>
-                    </div>
-                    <div class="d-inline-block  ml-3"><img class="yourFavImg" src="assets/Images/homePageImages/dummy2.jpg" alt="picture of a favorite meal" />
-                        <p class="text-center text-warning">Vegetable Lo Mein</p>
-                    </div>
-                    <div class="d-inline-block ml-3"><img class="yourFavImg" src="assets/Images/homePageImages/dummy3.jpg" alt="picture of a favorite meal" />
-                        <p class="text-center text-warning">Sirloin Steak</p>
-                    </div>
-                    <div class="d-inline-block ml-3"><img class="yourFavImg" src="assets/Images/homePageImages/dummy4.jpg" alt="picture of a favorite meal" />
-                        <p class="text-center text-warning">Seafood Yellow Rice</p>
-                    </div>
-                    <div class="d-inline-block  ml-3"><img class="yourFavImg" src="assets/Images/homePageImages/dummy5.jpg" alt="picture of a favorite meal" />
-                        <p class="text-center text-warning">Mussel Medley</p>
-                    </div>
-                    <div class="d-inline-block  ml-3"><img class="yourFavImg" src="assets/Images/homePageImages/dummy6.jpg" alt="picture of a favorite meal" />
-                        <p class="text-center text-warning">Tasty meat balls</p>
-                    </div>
-                    <div class="d-inline-block ml-3"><img class="yourFavImg" src="assets/Images/homePageImages/dummy7.jpg" alt="picture of a favorite meal" />
-                        <p class="text-center text-warning">Tasty meat balls</p>
-                    </div>
+                <div class="row w100 m-0">
+                    <div id="recentfavorites" class="col-12"></div>
+                </div>  
+                <div class="col-12 text-center w100 px-0 mb-4">
+                    <a class="secondarycolor" href="html/recipesearch.html" class="p-0"><button class="roundedcorners secondarycolor muli bttnfont px-3 py-1 blueline">FIND RECIPE</button> </a>
                 </div>
             </div>
         </div>
     </div>
     <div id="footerHome" class="position-static bg-secondary">
+
     </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../assets/javascript/index.js"></script>
 </body>
 
 </html>
