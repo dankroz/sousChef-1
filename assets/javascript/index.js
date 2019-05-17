@@ -55,13 +55,13 @@ function getDetails(id_url){
 
     //RENDER OPTIONS//
 
-        var row = $("<div class='row mx-0 favorite mb-4 roundedcorners my-3 p-3 bg-light secondarycolor'></div>")
-        var col = $("<div class='col-6 pl-0 favorite'></div>")
+        var row = $("<div class='row mx-0 favorite mb-4 roundedcorners my-3 py-3 pl-3 pr-1 bg-light secondarycolor'></div>")
+        var col = $("<div class='col-5 col-sm-6 pl-0 favorite'></div>")
         row.append(col)
         col.append("<img class='favoriteImg roundedcorners2' src=" + recipeImg +">")
-        var col2 = $("<div class='col-6'></div>")
+        var col2 = $("<div class='col-7 col-sm-6'></div>")
         col2.append("<div class='row'><div class='col-12 secondarycolor buttonfont recipename mt-1 muli'>" + recipeName + "</div></div>")
-        col2.append("<div class='row'><div class='col-12 secondarycolor buttonfont mt-1 muli recipename'>" + recipeArea + " • " + recipeCategory + "</div></div>")
+        col2.append("<div class='row'><div class='col-12 secondarycolor buttonfont mt-1 muli recipename fit'>" + recipeArea + " • " + recipeCategory + "</div></div>")
         row.append(col2)
         col2.append("<div class='row'><div class='col-12 secondarycolor buttonfont mt-1 recipetitle muli'>RECIPE</div></div>")
         row.append(col2)

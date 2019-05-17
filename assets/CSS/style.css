@@ -3,7 +3,7 @@
     /* background-image: url(../Images/cookingimage.jpg); */
     background-repeat:no-repeat;
     background-size:cover;
-    width: 100vw;
+    width: 100%;
     border-bottom: 10px solid #ffc866;
 }
 
@@ -51,9 +51,6 @@ height: 90px;
     }
 }
 
-#footerHome {
-    height: 100px;
-}
 
 .modal {
     align-content: center;
@@ -221,6 +218,14 @@ a:hover{
     overflow: hidden;
 }
 
+.socialmedia{
+    height: 25px;
+}
+
+.fit{
+    font-size: 18px;
+}
+
 @media only screen and (max-width: 600px){ 
     .favorite{
         max-height: 150px;
@@ -240,5 +245,9 @@ a:hover{
 
     .recipetitle{
         display: none;
+    }
+
+    .fit{
+        font-size: 15px;
     }
 }
