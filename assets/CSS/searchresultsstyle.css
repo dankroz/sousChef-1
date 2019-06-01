@@ -1,3 +1,16 @@
+.content{
+    min-height: calc(100vh - 123px)
+}
+
+/* .footer{
+    height: 100px;
+    background-color: #353132;
+  } */
+
+.socialmedia{
+    height: 25px;
+}
+
 .maincolor{
     background-color: #ffc866;
 }
@@ -99,7 +112,7 @@ a:hover {
 
 .blueline:hover{
     background-color: #ffc866;
-    color:#e8e8e8;
+    color:white;
 }
 
 .blueline{

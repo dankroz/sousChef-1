@@ -1,3 +1,19 @@
+.borderyellow{
+    border-color:#ffc866;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+.bttnhover:hover{
+    background-color: #ffc866 !important;
+    color: white
+}
+
+.pointer{
+    cursor: pointer;
+}
+
 .maincolor{
     background-color: #ffc866;
 }
