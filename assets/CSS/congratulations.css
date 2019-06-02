@@ -1,9 +1,22 @@
+.content{
+    min-height: calc(100vh - 70px)
+}
+
+@media screen and (max-width: 575px) {
+    .content {
+        min-height: calc(100vh - 120px)
+    }
+}
+
 .borderyellow{
     border-color:#ffc866;
     border-width: 2px;
     border-style: solid;
 }
 
+.socialmedia{
+    height: 25px;
+}
 
 .bttnhover:hover{
     background-color: #ffc866 !important;
