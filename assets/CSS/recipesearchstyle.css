@@ -66,7 +66,7 @@
     border-style:solid;
     border-width: 2px;
     border-color: #f9b443;
-    color: #e8e8e8;
+    color: white;
     background-color: #f9b443;
 }
 
@@ -80,7 +80,7 @@ a:hover {
 
 .clickedcolors{
     background-color: #ffc866;
-    color:#e8e8e8;
+    color:white;
 }
 
 .submit {
@@ -105,7 +105,7 @@ h5 {
 }
 
 #maincolor {
-    background-color: #ffc866;
+    background-color: #f9b443;
     height: 90px;
 }
 

@@ -20,7 +20,7 @@ $(".arrecipebttn").on("click", function () {
 
                     // ADD THE X
                     // Create a Div to hold the x
-                    var xdiv = $("<img class='ml-2 xarbutton' src=../assets/Images/x.png>")
+                    var xdiv = $("<img class='ml-2 xarbutton' src=../assets/Images/xv2.png>")
                     // append xdiv to html
                     $(this).append(xdiv)
 
@@ -77,7 +77,7 @@ $(".arrecipebttn").on("click", function () {
 
                     // ADD THE X
                     // Create a Div to hold the x
-                    var xdiv = $("<img class='ml-2 xctbutton' src=../assets/Images/x.png>")
+                    var xdiv = $("<img class='ml-2 xctbutton' src=../assets/Images/xv2.png>")
                     // append xdiv to html
                     $(this).append(xdiv)
 
