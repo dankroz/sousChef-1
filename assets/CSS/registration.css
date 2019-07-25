@@ -1,0 +1,258 @@
+body {
+    background-image: url("../Images/Homepgbackgroundimg.jpg");
+}
+
+#rForm {
+    margin-top: 3%;
+    padding: 3%;
+    background-color:white;
+    border-radius: 8%;
+    opacity: .88;
+}
+
+.firstImg {
+    max-height: 95vw;
+    /* background-image: url(../Images/cookingimage.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-bottom: 10px solid #ffc866;
+}
+
+h5 {
+    color: #ffc866;
+}
+
+#maincolor {
+    background-color: #ffc866;
+    height: 90px;
+}
+
+.logoimage {
+    height: 30px;
+}
+
+#startCookingBtn, #findRecipeBtn {
+    border-radius: 35px;
+    width: 190px;
+    height: 50px;
+    padding-top: 8px;
+    font-size: 23px;
+    color: #f9b443;
+    font-weight: 400;
+}
+
+#btnDiv1, #btnDiv2 {
+    margin-top: -150px;
+}
+
+#secondC {
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.img {
+    margin: 10px;
+}
+
+@media screen and (max-width: 575px) {
+    #btnDiv1 {
+        margin-top: -80px;
+    }
+}
+
+.modal {
+    align-content: center;
+    align-self: center;
+}
+
+.maincolor {
+    background-color: #ffc866;
+}
+
+.logoimage {
+    height: 30px;
+}
+
+.cookingimg {
+    max-height: 300px;
+    /* background-image: url(../Images/cookingimage.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+.bar {
+    height: 10px;
+    width: 100vw;
+}
+
+.secondarycolor {
+    color: #f9b443;
+}
+
+.titlefont {
+    font-size: 28px;
+}
+
+.muli {
+    font-family: muli, sans-serif;
+}
+
+.listbuttons {
+    float: left;
+}
+
+.buttoncolor {
+    background-color: #e8e8e8;
+}
+
+.roundedcorners {
+    border-radius: 25px;
+}
+
+.roundedcorners2 {
+    border-radius: 16px;
+}
+
+.buttonfont {
+    font-size: 18px;
+}
+
+#submitbttn {
+    width: 120px;
+    margin: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f9b443;
+}
+
+.clickedcolors {
+    background-color: #ffc866;
+    color: #e8e8e8;
+}
+
+.submit {
+    text-decoration: inherit;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.whitebg {
+    background-color: white;
+}
+
+.whitefont {
+    color: white;
+}
+
+.floatright {
+    float: right
+}
+
+.nooutline:focus {
+    outline: 0;
+}
+
+.bttnhover:hover {
+    background-color: #ffc866;
+    color: white
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bttnfont {
+    font-size: 28px;
+}
+
+.bttnhover:hover {
+    background-color: #ffc866;
+    color: white
+}
+
+.favorite {
+    max-height: 250px;
+    width: 100%
+}
+
+.favoriteImg {
+    float: left;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.instructions {
+    /* text-overflow: ellipsis; */
+    height: 70px;
+    overflow: hidden;
+}
+
+.blueline:hover {
+    background-color: #ffc866;
+    color: white;
+}
+
+.blueline {
+    border-color: #ffc866;
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer
+}
+
+.dropshadow {
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+.w100 {
+    width: 100%
+}
+
+.marginfix {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.recipename {
+    max-height: 25px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.socialmedia {
+    height: 25px;
+}
+
+.fit {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .favorite {
+        max-height: 150px;
+        width: 100%
+    }
+    .favoriteImg {
+        float: left;
+        width: 100%;
+        height: 115px;
+        object-fit: cover;
+    }
+    .instructions {
+        display: none;
+    }
+    .recipetitle {
+        display: none;
+    }
+    .fit {
+        font-size: 15px;
+    }
+}

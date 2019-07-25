@@ -165,7 +165,7 @@ $("DOMContentLoaded", function () {
     //creating a user
     $("#signup-button").on("click", (e) => {
         function registrationPage() {
-            window.open("html/Registration.html")
+            window.open("html/registration.html")
         }
 
         registrationPage();
